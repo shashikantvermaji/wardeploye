@@ -20,6 +20,10 @@
   </repositories>
 
   <dependencies>
+      dependency>     
+         <groupId>my</groupId>     
+          <artifactId>java</artifactId>     
+    <version>1.4</version> </dependency>
  <dependency>
       <groupId>com.dragome</groupId>
       <artifactId>dragome-sdk</artifactId>
