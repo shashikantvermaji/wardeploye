@@ -20,10 +20,6 @@
   </repositories>
 
   <dependencies>
-      <dependency>     
-         <groupId>my</groupId>     
-          <artifactId>java</artifactId>     
-    <version>1.4</version> </dependency>
  <dependency>
       <groupId>com.dragome</groupId>
       <artifactId>dragome-sdk</artifactId>
@@ -46,10 +42,10 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.6.3</version>
+        <version>3.1</version>
         <configuration>
-          <source>11</source>
-          <target>11</target>
+          <source>1.7</source>
+          <target>1.7</target>
         </configuration>
       </plugin>
 
