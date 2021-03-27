@@ -20,7 +20,7 @@
   </repositories>
 
   <dependencies>
-      dependency>     
+      <dependency>     
          <groupId>my</groupId>     
           <artifactId>java</artifactId>     
     <version>1.4</version> </dependency>
