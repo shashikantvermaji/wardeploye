@@ -1,4 +1,4 @@
-FROM tomcat:latest
-ADD target/0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/
+FROM tomcat:8.5.47-jdk8-openjdk
+COPY ./java.war /usr/local/tomcat/webapps
 EXPOSE 8081
 CMD ["catalina.sh", "run"]
